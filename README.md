@@ -24,20 +24,6 @@ To run the main function of the Popularity-Calculator, input the term of interes
 - **Trust Parameter**: Account for the percentage of guidelines used for the evaluation process.
 - **Time Increment Parameter**: Split the time frame into segments according to its value.
 
-```python
-# Example usage
-from AI_popularity_calculator import get_popularity
-
-# Set term of interest
-query = "Bitcoin cryptocurrency"
-
-# Connect with your OpenAI API by inputting your API key below
-api_key = "OPENAI_API_KEY"
-
-# Execution
-get_popularity(query)
-```
-
 ## AI Guidelines
 
 The Popularity-Calculator employs a set of evaluation criteria when interacting with the GPT-3.5-turbo model. These criteria include factors such as relevance, clarity, accuracy, objectivity, and others. The trust parameter influences the percentage of guidelines considered during the evaluation.
