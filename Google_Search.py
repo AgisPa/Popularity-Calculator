@@ -16,7 +16,7 @@ def get_google_titles(query, start_date, end_date):
 
     options = Options()
     options.add_experimental_option("prefs", {
-        "download.default_directory": r"C:\Users\cooki\PycharmProjects\Trends",
+        "download.default_directory": r"",
         "download.prompt_for_download": False,
         "download.directory_upgrade": True,
         "safebrowsing.enabled": True
